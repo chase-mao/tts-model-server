@@ -8,7 +8,6 @@ import (
 	"github.com/chasemao/tts-model-server/log"
 	"github.com/chasemao/tts-model-server/model"
 	"github.com/chasemao/tts-model-server/model/coquiaitts"
-	"github.com/chasemao/tts-model-server/model/edge"
 	"github.com/gin-gonic/gin"
 )
 
