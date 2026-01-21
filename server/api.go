@@ -26,7 +26,6 @@ func (s *Processer) Serve() {
 	r := gin.Default()
 
 	s.models = append(s.models,
-		edge.NewModel(),
 		coquiaitts.NewModel(),
 	)
 
