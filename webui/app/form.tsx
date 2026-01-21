@@ -237,7 +237,7 @@ const ConfigurationForm: React.FC<object> = () => {
         <button className="form-button"
           onClick={()=>handleListen()}
           disabled={isDisabled}
-        >Listen</button>
+        >{isDisabled ? "Generating Audio... (takes ~20s)" : "Listen"}</button>
         
         <button className="form-button"
           onClick={()=>handleGenerateSubscribeURL()}>Generate subscribe URL</button>
