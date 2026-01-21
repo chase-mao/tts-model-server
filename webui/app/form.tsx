@@ -173,7 +173,7 @@ const ConfigurationForm: React.FC<object> = () => {
     <>
       <GoogleAnalytics/>
       <div className="config-form">
-        <GitHubButton href="https://github.com/chasemao/tts-model-server">Star tts-model-server</GitHubButton>
+        <GitHubButton href="https://github.com/chase-mao/tts-model-server">Star tts-model-server</GitHubButton>
         <Link className="home-redirect" href="/">Back to Chase Mao&apos;s Blog</Link>
         <h2 className="form-title">TTS Model Server WebUI</h2>
         
