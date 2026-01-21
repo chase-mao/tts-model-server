@@ -58,7 +58,7 @@ func (i *impl) TTS(ctx context.Context, text string, args map[string]string) ([]
 	defer i.mu.Unlock()
 
 	id := uuid.New().String()
-	fileName := fmt.Sprintf("/tmp/ttsmodelserver/%s.wav", id)
+	fileName := fmt.Sprintf("/tmp/%s.wav", id)
 	commands := []string{
 		"/home/ubuntu/miniconda3/bin/conda", "run", "-n", "base",
 		"tts",
