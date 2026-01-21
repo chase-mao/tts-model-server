@@ -226,7 +226,7 @@ const ConfigurationForm: React.FC<object> = () => {
             if (formData["text"]) {
               return formData["text"];
             }
-            const dv = "It is a paragraph for testing, thank you for starring the github repo.";
+            const dv = "I say hello world, you say hellow world";
             formData["text"] = dv;
             return dv;
           })()}
